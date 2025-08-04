@@ -6,10 +6,11 @@ import Footer from "~/components/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: " Nişantaşı Hukuk Bürosu ve Danışmanlık" },
+    { name: "description", content: "Istanbul ve Nişantaşı avukatlık bürosu" },
   ];
 }
+
 
 export default function Home() {
   return <div data-theme="dark"> <Navbar/> <Outlet/>
