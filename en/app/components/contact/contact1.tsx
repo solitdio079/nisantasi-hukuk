@@ -71,12 +71,11 @@ export default function Contact1() {
                       </div>
                     </div>
                     <h4 className="text-base-content text-lg font-medium">
-                      Office 2
+                      E posta
                     </h4>
                     <address className="text-base-content/80 text-center not-italic">
-                      802 Pension Rd,Maine
-                      <br />
-                      96812, USA
+                    felhanmahmut@gmail.com
+                      
                     </address>
                   </div>
                 </div>

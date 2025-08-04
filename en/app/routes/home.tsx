@@ -37,7 +37,7 @@ export default function Home() {
 
               <div>
                 <h5 className="card-title mb-2.5 text-xl">E-posta</h5>
-                <p className="mb-4">sales@gmail.com</p>
+                <p className="mb-4">felhanmahmut@gmail.com</p>
               </div>
             </div>
           </div>

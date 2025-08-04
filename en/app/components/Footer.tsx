@@ -21,6 +21,7 @@ export default function Footer(){
     <a href="#" className="link link-hover">İş ve Sosyal Güvenlik Hukuku</a>
     <a href="#" className="link link-hover">Miras Hukuku</a>
     <a href="#" className="link link-hover">Sözleşmeler Hukuku</a>
+    <a href="#" className="link link-hover">Boşanma ve Nafaka hukuku</a>
   </nav>
   <nav className="text-base-content">
     <h6 className="footer-title">Kurumsal</h6>
