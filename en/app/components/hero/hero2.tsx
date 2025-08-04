@@ -1,22 +1,25 @@
 import GoldTables from "./goldTables";
-
+import ScrollCards from "../testimonials/scrollCards";
+import heroBg from "./hero-bg.jpeg"
+import { Link } from "react-router";
 export default function Hero2() {
   return (
     <div className="bg-base-100">
-      <main className="h-screen">
+      <main className={`h-screen relative `}>
+        <img src={heroBg} className="absolute z-0 w-full h-full blur-sm grayscale-25" alt="" />
         <div className="flex h-full flex-col justify-between gap-18 overflow-x-hidden pt-20 md:gap-24 md:pt-25 lg:gap-15 lg:pt-27.5">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 justify-self-center px-4 text-center sm:px-6 lg:px-8">
-            <div className="bg-base-200 border-base-content/20 flex w-fit items-center gap-2.5 rounded-full border px-3 py-2">
+            <div className="bg-base-200 intersect:motion-preset-slide-right intersect:motion-ease-spring-bouncier border-base-content/20 flex w-fit items-center gap-2.5 rounded-full border px-3 py-2">
               <span className="badge badge-primary shrink-0 rounded-full">
-                AI-Powered
+                Istanbul
               </span>
               <span className="text-base-content/80">
-              Asırlık Mirasın Işıltısı
+              Nişantaşı Hukuk Bürosu ve Danışmanlık
               </span>
             </div>
-            <h1 className="text-base-content relative z-1 text-5xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
+            <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
               <span>
-              Gelenekten ilham alan, el işçiliğiyle hayat bulan takılar
+              Güvenilir ve Etkin Hukuki Çözümler
               </span>
               <svg
                 width="223"
@@ -50,19 +53,17 @@ export default function Hero2() {
                 </defs>
               </svg>
             </h1>
-            <p className="text-base-content/80 max-w-3xl">
-            Anadolu’nun zengin motiflerinden ilham alan tasarımlarımızla geçmişin ruhunu günümüze taşıyoruz. Her parça, ustalığın ve ruhun izlerini taşır.
+            <p className="text-white max-w-3xl intersect:motion-preset-slide-right intersect:motion-delay-[600ms] intersect:motion-ease-spring-bouncier">
+            İstanbul’un merkezinde faaliyet gösteren büromuz; ceza, ticaret, aile ve gayrimenkul hukuku başta olmak üzere birçok alanda profesyonel çözümler sağlar. Her adımda yanınızdayız.
             </p>
 
-            <a href="#" className="btn btn-primary btn-gradient btn-lg">
-            Şimdi Keşfet
+            <Link to="/about2" className="btn btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier">
+            Hakkımızda
               <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
-            </a>
+            </Link>
           </div>
           <div className="flex gap-6 flex-nowrap overflowy-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
-            <GoldTables/>
-            <GoldTables/>
-            <GoldTables/>
+            <ScrollCards/>
             
            
           </div>
