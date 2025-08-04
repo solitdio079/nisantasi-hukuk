@@ -10,7 +10,7 @@ import {
 import { useEffect } from 'react';
 import type { Route } from "./+types/root";
 import "./app.css";
-import SplashScreen from "./components/Splashscreen";
+import SplashScreen from "./components/SplashScreen";
 import ObserverProvider from "./components/ObserverProvider";
 
 
