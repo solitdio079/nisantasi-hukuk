@@ -37,12 +37,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="dropdown-item" to="/about2">
+              <Link className="dropdown-item" to="/about">
                 Hakkımızda
               </Link>
             </li>
             <li>
-              <Link className="dropdown-item" to="/contact1">
+              <Link className="dropdown-item" to="/contact">
                 İletişim
               </Link>
             </li>

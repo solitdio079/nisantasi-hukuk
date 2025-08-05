@@ -48,6 +48,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
     </html>
   );
 }
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: " Nişantaşı Hukuk Bürosu ve Danışmanlık" },
+    { name: "description", content: "İstanbul Nişantaşı'nda uzman avukatlık hizmetleri: aile, ceza, iş hukuku ve daha fazlası."},
+    { name: "keywords", content: "avukat, istanbul avukat, Istanbul ve Nişantaşı avukatlık bürosu, avukatlık, nişantaşı avukatlık, istanbul avukat bürosu,Ceza Hukuku Hizmetleri, İş ve Sosyal Güvenlik Hukuku, Miras Hukuku,Sözleşmeler Hukuku,Boşanma ve Nafaka hukuku"  },
+    {name:"robots", content:"index, follow"}
+  ];
+}
 
 export default function App() {
   const location = useLocation();
