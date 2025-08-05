@@ -14,7 +14,7 @@ export default function Hero2() {
                 Istanbul
               </span>
               <span className="text-base-content/80">
-              Nişantaşı Hukuk Bürosu ve Danışmanlık
+              Nişantaşı Avukatlık
               </span>
             </div>
             <h1 className="text-white intersect:motion-preset-slide-right intersect:motion-delay-[400ms] intersect:motion-ease-spring-bouncier relative z-1 text-5xl leading-[1.15] font-bold max-md:text-2xl md:max-w-3xl md:text-balance">
@@ -64,8 +64,6 @@ export default function Hero2() {
           </div>
           <div className="flex gap-6 flex-nowrap overflowy-x-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
             <ScrollCards/>
-            
-           
           </div>
         </div>
       </main>
