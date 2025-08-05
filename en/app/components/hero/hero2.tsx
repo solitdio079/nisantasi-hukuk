@@ -57,7 +57,7 @@ export default function Hero2() {
             İstanbul’un merkezinde faaliyet gösteren büromuz; ceza, ticaret, aile ve gayrimenkul hukuku başta olmak üzere birçok alanda profesyonel çözümler sağlar. Her adımda yanınızdayız.
             </p>
 
-            <Link to="/about2" className="btn btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier">
+            <Link to="/hakkımızda" className="btn btn-primary btn-gradient btn-lg intersect:motion-preset-slide-right intersect:motion-delay-[800ms] intersect:motion-ease-spring-bouncier">
             Hakkımızda
               <span className="icon-[tabler--arrow-right] size-5 rtl:rotate-180"></span>
             </Link>

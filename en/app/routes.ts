@@ -4,11 +4,11 @@ export default [
     layout("./routes/layout.tsx", [
         index("./routes/home.tsx"),
         route("hero2","./components/hero/hero2.tsx"),
-        route("contact", "./components/contact/contact1.tsx"),
+        route("iletişim", "./components/contact/contact1.tsx"),
         route("contact2", "./components/contact/contact2.tsx"),
         route("contact3", "./components/contact/contact3.tsx"),
         route("about1", "./components/about/about1.tsx"),
-        route("about", "./components/about/about2.tsx"),
+        route("hakkımızda", "./components/about/about2.tsx"),
         route("about3", "./components/about/about3.tsx"),
         route("testimonial1", "./components/testimonials/testimonial1.tsx"),
         route("testimonial2", "./components/testimonials/testimonial2.tsx"),
