@@ -50,12 +50,56 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: " Nişantaşı Hukuk Bürosu ve Danışmanlık" },
-    { name: "description", content: "İstanbul Nişantaşı'nda uzman avukatlık hizmetleri: aile, ceza, iş hukuku ve daha fazlası."},
-    { name: "keywords", content: "avukat, istanbul avukat, Istanbul ve Nişantaşı avukatlık bürosu, avukatlık, nişantaşı avukatlık, istanbul avukat bürosu,Ceza Hukuku Hizmetleri, İş ve Sosyal Güvenlik Hukuku, Miras Hukuku,Sözleşmeler Hukuku,Boşanma ve Nafaka hukuku"  },
-    {name:"robots", content:"index, follow"}
+    // Page title
+    { title: "Nişantaşı Hukuk Bürosu ve Danışmanlık" },
+
+    // Meta description
+    {
+      name: "description",
+      content:
+        "İstanbul Nişantaşı'nda uzman avukatlık hizmetleri: aile, ceza, iş hukuku ve daha fazlası.",
+    },
+
+    // SEO keywords
+    {
+      name: "keywords",
+      content:
+        "avukat, istanbul avukat, Istanbul ve Nişantaşı avukatlık bürosu, avukatlık, nişantaşı avukatlık, istanbul avukat bürosu, Ceza Hukuku Hizmetleri, İş ve Sosyal Güvenlik Hukuku, Miras Hukuku, Sözleşmeler Hukuku, Boşanma ve Nafaka hukuku",
+    },
+
+    // Robots
+    { name: "robots", content: "index, follow" },
+
+    // Canonical URL
+    {
+      rel: "canonical",
+      href: "https://www.nisantasiavukatlik.com",
+    },
+
+    // Open Graph for social sharing
+    { property: "og:title", content: "Nişantaşı Hukuk Bürosu ve Danışmanlık" },
+    {
+      property: "og:description",
+      content:
+        "Nişantaşı’nda uzman avukatlık hizmetleri. Aile, ceza, iş hukuku ve daha fazlası için iletişime geçin.",
+    },
+    {
+      property: "og:url",
+      content: "https://www.nisantasiavukatlik.com",
+    },
+    {
+      property: "og:image",
+      content: "https://www.nisantasiavukatlik.com/images/og-image.jpg", // Update with your actual image
+    },
+
+    // Viewport for mobile devices (good practice)
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
+    },
   ];
 }
+
 
 export default function App() {
   const location = useLocation();
