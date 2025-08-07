@@ -1,5 +1,5 @@
 [build]
-command = "react-router build"
+command = "react-router build && node scripts/patch-node-fetch-server.js"
 publish = "build/client"
 
 [dev]
