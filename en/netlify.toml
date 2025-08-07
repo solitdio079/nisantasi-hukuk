@@ -7,3 +7,4 @@ command = "react-router dev"
 
 [functions]
 external_node_modules = ["@mjackson/node-fetch-server"]
+node_bundler = "esbuild"
