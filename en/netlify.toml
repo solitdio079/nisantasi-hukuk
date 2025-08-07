@@ -1,9 +1,9 @@
 [build]
-command = "npm run build"
-publish = "build/client"
+  base = "en"
+  command = "npm run build"
+  publish = "en/build/client"
 
-[dev]
-command = "react-router dev"
-
-[functions]
-
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
