@@ -1,10 +1,9 @@
 [build]
-command = "react-router build && node scripts/patch-node-fetch-server.js"
+command = "react-router build"
 publish = "build/client"
 
 [dev]
 command = "react-router dev"
 
 [functions]
-external_node_modules = ["@mjackson/node-fetch-server"]
-node_bundler = "esbuild"
+
